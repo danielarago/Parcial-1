@@ -6,6 +6,9 @@ public class Summary {
 
     private int activeProjects;
     private LocalDate date;
+    private int openActivities;
+    private int closedActivities;
+
 
 
     public int getActiveProjects() {

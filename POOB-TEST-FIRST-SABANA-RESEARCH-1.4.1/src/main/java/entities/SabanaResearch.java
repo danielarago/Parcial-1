@@ -8,6 +8,7 @@ public class SabanaResearch {
 
     private List<Group> groups;
     private List<Summary> summaries;
+    private List<Course> courses;
 
     public SabanaResearch(List<Group> groups) {
         this.groups = groups;

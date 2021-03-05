@@ -2,10 +2,13 @@ package entities;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.time.LocalDate;
 
 public class Iteration {
 
     private String goal;
+    private LocalDate dateInit;
+    private LocalDate dateEnd;
     private Project project;
     private List<Activity> activities;
 

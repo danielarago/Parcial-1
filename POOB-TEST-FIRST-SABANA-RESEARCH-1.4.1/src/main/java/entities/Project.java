@@ -9,6 +9,7 @@ public class Project {
     private String name;
     private LocalDate dateInit;
     private LocalDate dateEnd;
+    private String goal;
     private Group group;
     private List<Iteration> iterations;
 

@@ -9,6 +9,7 @@ public class Activity {
 
     private String name;
     private String state;
+    private int estimatedDuration;
     private Iteration iteration;
 
     public Activity(String name, String state, Iteration iteration) {
