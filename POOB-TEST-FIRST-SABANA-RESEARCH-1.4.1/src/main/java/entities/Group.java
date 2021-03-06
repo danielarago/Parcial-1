@@ -17,6 +17,18 @@ public class Group {
         this.projects = new ArrayList<>();
     }
 
+    public int countActiveProjects(){
+        int ap = 0;
+
+        for (Project p : projects){
+            if (p.isActive()){
+                ap++;
+            }
+        }
+
+        return ap;
+    }
+
     public void addProject(Project plan) {
         this.projects.add(plan);
     }

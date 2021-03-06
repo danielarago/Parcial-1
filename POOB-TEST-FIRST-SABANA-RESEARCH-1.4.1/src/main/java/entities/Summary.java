@@ -4,12 +4,15 @@ import java.time.LocalDate;
 
 public class Summary {
 
-    private int activeProjects;
     private LocalDate date;
+    private int activeProjects;
     private int openActivities;
     private int closedActivities;
 
-
+    public Summary(LocalDate date, int activeProjects) {
+        this.date = date;
+        this.activeProjects = activeProjects;
+    }
 
     public int getActiveProjects() {
         return activeProjects;

@@ -17,11 +17,21 @@ public class SabanaResearchTest {
     private List<Group> groups;
     private List<Project> projects;
     private List<Iteration> iterations;
+    private LocalDate currentDate;
 
     public SabanaResearchTest() {
         this.groups = new ArrayList<>();
         this.projects = new ArrayList<>();
         this.iterations = new ArrayList<>();
+    }
+
+    public void createSummaryEntry(){
+        int ap=0;
+        for (Group g : groups){
+            ap = g.countActiveProjects();
+        }
+
+        new Summary(currentDate, ap);
     }
 
     @BeforeEach

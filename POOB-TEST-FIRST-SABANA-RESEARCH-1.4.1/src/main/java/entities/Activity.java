@@ -26,7 +26,16 @@ public class Activity {
      * @return true if the activity is in state pending or active, otherwise return false.
      */
     public boolean isActive() {
-        return false;
+        boolean result = false;
+
+        if (this.state.equals(PENDING_STATE)){
+            result = true;
+        }
+        if (this.state.equals(ACTIVE_STATE)){
+            result = true;
+        }
+
+        return result;
     }
 
 }
