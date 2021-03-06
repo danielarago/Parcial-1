@@ -6,6 +6,7 @@ import java.util.List;
 
 public class SabanaResearch {
 
+    private LocalDate currentDate;
     private List<Group> groups;
     private List<Summary> summaries;
     private List<Course> courses;
@@ -29,7 +30,13 @@ public class SabanaResearch {
      *
      * @return The new Summary entry.
      */
-    public Summary createSummaryEntry() {
-        return null;
+    public Summary createSummaryEntry(){
+        currentDate = LocalDate.now();
+        int ap=0;
+        for (Group g : groups){
+            ap = g.countActiveProjects();
+        }
+
+        return new Summary(currentDate, ap);
     }
 }

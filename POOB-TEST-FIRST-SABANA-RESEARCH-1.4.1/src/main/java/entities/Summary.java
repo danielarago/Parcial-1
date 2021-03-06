@@ -19,6 +19,7 @@ public class Summary {
     }
 
     public LocalDate getDate() {
+        date = LocalDate.now();
         return date;
     }
 }
