@@ -8,3 +8,6 @@ Repositorio con parcial primer corte.
 ## Diagrama de memoria
 ![Diagrama de memoria](https://github.com/danielarago/Parcial-1/blob/master/Diagrama%20de%20memoria.png)
 El diagrama de memoria también se encuentra en los archivos.
+## Código
+Diagrama de clases actualizado, también se encuentra en los archivos.
+![Diagrama de clases](https://github.com/danielarago/Parcial-1/blob/master/Diagrama%20de%20clases%20modificado.png)
