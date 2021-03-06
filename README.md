@@ -11,3 +11,6 @@ El diagrama de memoria también se encuentra en los archivos.
 ## Código
 Diagrama de clases actualizado, también se encuentra en los archivos.
 ![Diagrama de clases](https://github.com/danielarago/Parcial-1/blob/master/Diagrama%20de%20clases%20modificado.png)
+## Diseño
+Diagrama de secuencia del diseño
+![Diagrama de secuencia diseño](https://github.com/danielarago/Parcial-1/blob/master/Dise%C3%B1o%20Parcial.png)
