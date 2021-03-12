@@ -20,21 +20,18 @@ public class Iteration {
         project.addIteration(this);
     }
 
-    public boolean countOpenActivities(){
-        boolean result = false;
-        int cont = 0;
+    public int countOpenActivities(){
+        /*int cont = 0;
 
-        for (Activity a : activities){
+        for (Activity a : this.activities){
             if (a.isActive()){
                 cont ++;
             }
         }
 
-        if (cont==activities.size()){
-            result = true;
-        }
+        return cont;*/
 
-        return result;
+        return (int) this.activities.stream().map(a -> a.isActive()).filter(b -> !b).count();
     }
 
     public void addActivity(Activity activity) {

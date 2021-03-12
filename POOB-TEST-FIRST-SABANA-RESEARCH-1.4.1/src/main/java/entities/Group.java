@@ -18,7 +18,7 @@ public class Group {
     }
 
     public int countActiveProjects(){
-        int ap = 0;
+        /*int ap = 0;
 
         for (Project p : projects){
             if (p.isActive()){
@@ -26,7 +26,9 @@ public class Group {
             }
         }
 
-        return ap;
+        return ap;*/
+
+        return (int) this.projects.stream().map(p -> p.isActive()).filter(b->b).count();
     }
 
     public void addProject(Project plan) {
