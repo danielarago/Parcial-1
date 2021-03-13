@@ -14,3 +14,5 @@ Diagrama de clases actualizado, también se encuentra en los archivos.
 ## Diseño
 Diagrama de secuencia del diseño
 ![Diagrama de secuencia diseño](https://github.com/danielarago/Parcial-1/blob/master/Dise%C3%B1o%20Parcial.png)
+Corrección del diseño según lo visto en clase. Se vuelve más fácil el proceso, buscando tanto al estudiante como al grupo dentro de SabanaResearch y después entrando a registrar al estudiante. 
+![Diagrama de secuencia corregido](https://github.com/danielarago/Parcial-1/blob/master/Dise%C3%B1o%20Parcial%20corregido.png)
